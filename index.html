@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación: Ransomware</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div class="slide-counter">
+        <span id="currentSlide">1</span> / <span id="totalSlides">10</span>
+    </div>
+
+    <div class="presentation-container">
+        <div class="slide active slide-1">
+            <h1>RANSOMWARE</h1>
+            <p class="subtitle">La Amenaza Cibernética del Siglo XXI</p>
+            <p class="presenter-notes">Presentación Educativa sobre Seguridad Informática</p>
+        </div>
+
+        <div class="slide slide-split layout-image-left">
+            <div class="slide-image-pane">
+                <img src="img/images (1).jpg" alt="Definición de Ransomware">
+            </div>
+            <div class="slide-text-pane">
+                <div class="slide-header"><h2>Definición</h2></div>
+                <div class="info-box">
+                    <h3>¿Qué es el Ransomware?</h3>
+                    <p>El <span class="highlight">ransomware</span> es un tipo de software malicioso (malware) que <strong>cifra los archivos</strong> de la víctima o bloquea el acceso a su sistema, exigiendo un <strong>pago de rescate</strong> (ransom) para restaurar el acceso.</p>
+                </div>
+                <h3>Características Principales:</h3>
+                <div class="grid cols-2">
+                    <div class="card"><div class="card-title">Cifrado</div><p>Encripta archivos usando algoritmos criptográficos fuertes.</p></div>
+                    <div class="card"><div class="card-title">Extorsión</div><p>Exige pago (usualmente en criptomonedas).</p></div>
+                    <div class="card"><div class="card-title">Presión Temporal</div><p>Plazos límite para aumentar la urgencia.</p></div>
+                    <div class="card"><div class="card-title">Sin Discriminación</div><p>Afecta a individuos, empresas y gobiernos.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-split layout-image-right">
+            <div class="slide-image-pane">
+                <img src="img/images (5).jpg" alt="Línea de tiempo histórica">
+            </div>
+            <div class="slide-text-pane">
+                <div class="slide-header"><h2>Historia del Ransomware</h2></div>
+                <div class="timeline">
+                    <div class="timeline-item"><div class="timeline-year">1989 - AIDS Trojan</div><p>Primer ransomware conocido. Distribuido en disquetes. Pedía $189 USD enviados por correo postal a Panamá.</p></div>
+                    <div class="timeline-item"><div class="timeline-year">2013 - CryptoLocker</div><p>Revolucionó el ransomware con cifrado RSA-2048 y el uso de Bitcoin, creando el modelo de negocio moderno.</p></div>
+                    <div class="timeline-item"><div class="timeline-year">2017 - WannaCry</div><p>Ataque masivo global que usó la vulnerabilidad EternalBlue. Se propagó como un gusano afectando a 150 países.</p></div>
+                    <div class="timeline-item"><div class="timeline-year">2021-Actualidad - RaaS</div><p>Era del "Ransomware-as-a-Service", un modelo de franquicia criminal que multiplica el número de ataques.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-split layout-image-left">
+            <div class="slide-image-pane">
+                <img src="img/woman-sitting-at-desk-typing-on-laptop-keyboard-with-email-spoofing-alert-symbols-appearing-above.webp" alt="Ciclo de ataque de malware">
+            </div>
+            <div class="slide-text-pane">
+                 <div class="slide-header"><h2>¿Cómo Funciona? (Ciclo de Ataque)</h2></div>
+                 <div class="step-list">
+                    <div class="card"><div class="card-title">1. Infección Inicial</div><p>El malware ingresa mediante phishing, vulnerabilidades o descargas.</p></div>
+                    <div class="card"><div class="card-title">2. Establecimiento</div><p>Se ejecuta, evade antivirus y se asegura de persistir en el sistema.</p></div>
+                    <div class="card"><div class="card-title">3. Escaneo y Cifrado</div><p>Busca y cifra archivos valiosos (documentos, bases de datos, imágenes).</p></div>
+                    <div class="card"><div class="card-title">4. Nota de Rescate</div><p>Muestra un mensaje exigiendo pago en criptomonedas con un plazo límite.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-split layout-image-right">
+            <div class="slide-image-pane">
+                <img src="img/images (3).jpg" alt="Vectores de propagación de malware">
+            </div>
+            <div class="slide-text-pane">
+                <div class="slide-header"><h2>Métodos de Propagación</h2></div>
+                 <div class="grid cols-2">
+                    <div class="card"><div class="card-title">Phishing</div><p>Correos fraudulentos con adjuntos o enlaces maliciosos. Es el método más común.</p></div>
+                    <div class="card"><div class="card-title">Exploits</div><p>Aprovechan vulnerabilidades en software desactualizado.</p></div>
+                    <div class="card"><div class="card-title">RDP Expuesto</div><p>Acceso por Escritorio Remoto con credenciales débiles.</p></div>
+                    <div class="card"><div class="card-title">Descargas</div><p>Software pirata ("cracks") que contienen ransomware oculto.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-split layout-image-left">
+            <div class="slide-image-pane">
+                <img src="img/images (5).jpg" alt="Gráficos de impacto financiero">
+            </div>
+            <div class="slide-text-pane">
+                <div class="slide-header"><h2>Impacto del Ransomware</h2></div>
+                <div class="stats-container">
+                    <div class="stat-item"><div class="stat-number">$20 MIL M.</div><div class="stat-label">Pérdidas 2021</div></div>
+                    <div class="stat-item"><div class="stat-number">71%</div><div class="stat-label">Empresas Atacadas</div></div>
+                    <div class="stat-item"><div class="stat-number">21 DÍAS</div><div class="stat-label">Inactividad</div></div>
+                </div>
+                <h3>Consecuencias Principales:</h3>
+                <div class="grid cols-1">
+                    <div class="danger-box"><strong>Impacto Empresarial:</strong><ul><li>Pérdida de datos y dinero</li><li>Interrupción de operaciones</li><li>Daño a la reputación</li></ul></div>
+                    <div class="danger-box"><strong>Impacto en Servicios Críticos:</strong><ul><li>Hospitales (cancelan cirugías)</li><li>Gobiernos (paralizan servicios)</li></ul></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-split layout-image-right">
+            <div class="slide-image-pane">
+                <img src="img/images (4).jpg" alt="Mapa del mundo con ciberataques">
+            </div>
+            <div class="slide-text-pane">
+                <div class="slide-header"><h2>Casos Famosos de Infección</h2></div>
+                 <div class="case-study-list">
+                    <div class="card case-study"><h3 class="case-title-danger">WannaCry (2017)</h3><p><strong>Impacto:</strong> Afectó al Sistema de Salud de UK, Telefónica y FedEx, paralizando operaciones globales. Explotó una vulnerabilidad de Windows.</p></div>
+                    <div class="card case-study"><h3 class="case-title-danger">Colonial Pipeline (2021)</h3><p><strong>Impacto:</strong> Paralizó el 45% del suministro de combustible de la costa este de EE.UU., causando una crisis nacional.</p></div>
+                    <div class="card case-study"><h3 class="case-title-info">¿Y en Perú?</h3><p>Según el Centro Nacional de Seguridad Digital, los ataques de ransomware a entidades públicas y privadas en Perú han aumentado.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-split layout-image-left">
+            <div class="slide-image-pane">
+                <img src="img/istockphoto-1479650035-1024x1024.webp" alt="Escudo protegiendo datos">
+            </div>
+            <div class="slide-text-pane">
+                <div class="slide-header"><h2>Prevención y Protección</h2></div>
+                <div class="grid cols-2">
+                    <div class="card prevention"><div class="card-title">Backups</div><p>Realizar copias de seguridad regulares (Regla 3-2-1).</p></div>
+                    <div class="card prevention"><div class="card-title">Actualizaciones</div><p>Mantener sistemas y software siempre actualizados.</p></div>
+                    <div class="card prevention"><div class="card-title">Antivirus</div><p>Usar soluciones de seguridad (EDR) de nueva generación.</p></div>
+                    <div class="card prevention"><div class="card-title">Capacitación</div><p>Educar a usuarios para que reconozcan el phishing.</p></div>
+                </div>
+                <div class="info-box" style="margin-top: 15px;"><strong>Regla 3-2-1:</strong> 3 copias, 2 medios diferentes, 1 copia fuera de sitio.</div>
+            </div>
+        </div>
+
+        <div class="slide slide-split layout-image-right">
+            <div class="slide-image-pane">
+                <img src="img/ransomware.jpg" alt="Plan de respuesta a incidentes">
+            </div>
+            <div class="slide-text-pane">
+                <div class="slide-header"><h2>¿Qué Hacer si ya Estás Infectado?</h2></div>
+                <div class="danger-box">
+                    <h3>Pasos Críticos Inmediatos:</h3>
+                    <ol class="action-list">
+                        <li><strong>AISLAR EL EQUIPO:</strong> ¡Desconéctalo de la red INMEDIATAMENTE!</li>
+                        <li><strong>NO PAGAR EL RESCATE:</strong> No garantiza la recuperación y financia a criminales.</li>
+                        <li><strong>REPORTAR:</strong> Contacta a las autoridades (en Perú, a la DIVINDAT).</li>
+                        <li><strong>RESTAURAR:</strong> Activa tu plan de respuesta y recupera desde una copia de seguridad limpia.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-split layout-image-left">
+            <div class="slide-image-pane">
+                <img src="img/images (1).jpg" alt="Comunidad trabajando en seguridad">
+            </div>
+            <div class="slide-text-pane">
+                <div class="slide-header"><h2>Conclusiones</h2></div>
+                <div class="info-box"><h3>Puntos Clave:</h3><ul><li>El ransomware es un <strong>negocio criminal multimillonario</strong>.</li><li>La <strong>prevención es la estrategia más eficaz</strong> y económica.</li><li>Tener un plan de respuesta es tan importante como la prevención.</li></ul></div>
+                <div class="final-message">
+                    <h2>La seguridad es responsabilidad de todos</h2>
+                    <p>Mantente informado, mantente protegido.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" id="prevBtn">← Anterior</button>
+        <button class="nav-btn" id="nextBtn">Siguiente →</button>
+    </div>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
